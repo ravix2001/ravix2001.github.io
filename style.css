@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #080808;
+    color: #ffff;
+}
+
+/*navbar*/
+header #container {
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 4rem;
+}
+
+.logo img {
+    height: 13vh;
+}
+
+nav ul {
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    /* Initial scale of 0 for underline effect */
+    height: 3px;
+    /* Height of the underline */
+    bottom: 0;
+    /* Align to bottom */
+    left: 0;
+    /* Align to left */
+    background-color: rgb(255, 0, 55);
+    /* Background color of the underline */
+    transform-origin: bottom right;
+    /* Set transform origin */
+    transition: transform 0.25s ease-out;
+    /* Transition effect for the underline */
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    /* Scale the underline on hover */
+    transform-origin: bottom left;
+    /* Set transform origin */
+}
+
+/*hero*/
+#hero {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 7.2rem;
+}
+
+#bio p {
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 10rem;
+}
+
+span {
+    font-size: xx-large;
+    color: rgb(255, 0, 55);
+}
+
+.photos img {
+    background-size: cover;
+    object-fit: contain;
+    height: 20rem;
+    width: 20rem;
+    margin-left: 9rem;
+    border: 7px solid #4d4d4d;
+    border-radius: 50%;
+    transition: border 100ms ease-out;
+    transition: box-shadow 110ms ease-out;
+}
+
+.photos img:hover {
+    border: 7px solid #ff00d9;
+    box-shadow: 0 0 60px #ff00d9;
+}
+
+.section {
+    padding-top: 2rem;
+    margin-bottom: 7rem;
+}
+
+/*about-me*/
+
+.heading {
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+#about p {
+    padding: 0px 12rem;
+}
+
+/*skills*/
+h2 {
+    color: rgb(255, 0, 55);
+    text-decoration: underline;
+}
+
+#skills h2 {
+    padding-left: 12rem;
+}
+
+#skills ul li {
+    list-style: none;
+    margin: 1rem 0rem 1rem 12rem;
+}
+
+/*work*/
+#work p {
+    margin-left: 12rem;
+}
+
+/*contact*/
+
+.container {
+    display: flex;
+}
+
+.box {
+    width: 50vw;
+}
+
+.icon svg {
+    color: white;
+}
+
+.contact {
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+#contact_icons {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+#contact_icons a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+form {
+    width: min-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 6vh;
+    width: 20vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 2px solid #4d4d4d;
+}
+
+.input:hover {
+    border: 2px solid rgb(255, 0, 55);
+    box-shadow: 0 0 20px rgb(255, 0, 55);
+}
+
+textarea {
+    height: 20vh;
+    width: 20vw;
+    padding: 1rem;
+    border: 2px solid #4d4d4d;
+}
+
+.input {
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+}
+
+button {
+    height: 2rem;
+    width: 5rem;
+    margin-left: 18vw;
+    background-color: rgb(255, 0, 55);
+    border: 2px solid rgb(255, 0, 55);
+}
+
+/*footer*/
+
+footer {
+    margin-top: 7rem;
+    border-top: 1px solid #4d4d4d;
+}
+
+.foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#foot_logo {
+    margin-top: 1rem;
+}
+
+#copyright {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.8rem;
+}
