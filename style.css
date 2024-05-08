@@ -86,11 +86,10 @@ nav ul li a {
 
 /*hero*/
 #hero {
-    width: 100vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 10rem;
+    padding-top: 11rem;
     margin-bottom: 2rem;
 }
 
