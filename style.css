@@ -14,14 +14,6 @@ body {
 }
 
 /*navbar*/
-header #container {
-    height: 13vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 3rem;
-    margin-right: 4rem;
-}
 
 .logo img {
     height: 13vh;
@@ -75,20 +67,37 @@ nav ul li a {
     /* Set transform origin */
 }
 
+#navbar {
+    position: fixed;
+    top: 0;
+    background-color: #080808;
+    width: 100vw;
+    z-index: 1;
+}
+
+#navbar #container {
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 4rem;
+}
+
 /*hero*/
 #hero {
     width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    margin-top: 5rem;
-    margin-bottom: 7.2rem;
+    padding-top: 10rem;
+    margin-bottom: 2rem;
 }
 
 #bio p {
     font-size: x-large;
     font-weight: bold;
-    margin-left: 10rem;
+    margin-left: 6rem;
 }
 
 span {
@@ -101,7 +110,6 @@ span {
     object-fit: contain;
     height: 20rem;
     width: 20rem;
-    margin-left: 9rem;
     border: 7px solid #4d4d4d;
     border-radius: 50%;
     transition: border 100ms ease-out;
@@ -114,8 +122,8 @@ span {
 }
 
 .section {
-    padding-top: 2rem;
-    margin-bottom: 7rem;
+    padding-top: 7rem;
+    margin-bottom: 2rem;
 }
 
 /*about-me*/
