@@ -366,6 +366,17 @@ footer {
     }
 }
 @media(max-width: 414px) {
+    #navbar{
+        display: flex;
+        justify-content: center;
+    }
+    #navbar #container {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    nav{
+        display: none;
+    }
     #about p,
     #work p {
         padding: 0px 3rem;
