@@ -27,11 +27,11 @@
     </div>
 
     <div id="main">
-        <div id="hero">
+        <div class="mobile_view" id="hero">
             <div id="bio">
                 <p>Hi,<br>I am <span>Ravi Pandit</span><br>I am a <span>Computer Engineer</span></p>
             </div>
-            <div class="photos">
+            <div class="mobile_view" id="photos">
                 <img src="image1.png" alt="photo">
             </div>
         </div>
@@ -128,35 +128,29 @@
                     </div>
                 </div>
                 <div class="box">
-                    <form action="/action">
-                        <input class="input" name="fname" type="text" placeholder="Name" required>
-                        <input class="input" name="mail" type="email" placeholder="Email" required>
-                        <textarea class="input" name="feedback" id="msg" rows="10" cols="30"
-                            placeholder="Please give your feedback!" required></textarea>
-                        <button class="input" type="submit">Submit</button>
-                    </form>
+                    <div id="form_box">
+                        <form action="/action">
+                            <input class="input" name="fname" type="text" placeholder="Name" required>
+                            <input class="input" name="mail" type="email" placeholder="Email" required>
+                            <textarea class="input" name="feedback" id="msg" rows="10" cols="30"
+                                placeholder="Please give your feedback!" required></textarea>
+                            <button class="input" type="submit">Submit</button>
+                        </form>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
 
     <footer>
-        <div class="foot" id="foot_logo">
+        <div class="foot">
             <div class="logo">
                 <img src="logo-dark.png" alt="Ravi">
             </div>
         </div>
-        <div class="foot" id="copyright">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                style="fill: rgb(255, 255, 255);">
-                <path
-                    d="M12 22c5.421 0 10-4.579 10-10S17.421 2 12 2 2 6.579 2 12s4.579 10 10 10zm0-18c4.337 0 8 3.663 8 8s-3.663 8-8 8-8-3.663-8-8 3.663-8 8-8z">
-                </path>
-                <path
-                    d="M12 17c.901 0 2.581-.168 3.707-1.292l-1.414-1.416C13.85 14.735 12.992 15 12 15c-1.626 0-3-1.374-3-3s1.374-3 3-3c.993 0 1.851.265 2.293.707l1.414-1.414C14.582 7.168 12.901 7 12 7c-2.757 0-5 2.243-5 5s2.243 5 5 5z">
-                </path>
-            </svg>
-            <p>2020 copyright all right reserved</p>
+        <div class="foot">
+            <p>&copy 2020 copyright all right reserved</p>
         </div>
     </footer>
     <script src="main.js"></script>
