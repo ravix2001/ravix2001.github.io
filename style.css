@@ -285,6 +285,20 @@ footer {
 }
 
 @media(max-width: 540px) {
+    nav {
+        display: none;
+    }
+
+    #navbar {
+        display: flex;
+        justify-content: center;
+    }
+
+    #navbar #container {
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+
     #navbar #container {
         height: 3rem;
     }
@@ -335,12 +349,12 @@ footer {
 
     .section {
         font-size: small;
-        padding-top: 4.8rem;
+        padding-top: 4rem;
         margin-bottom: 0rem;
     }
 
     .heading {
-        margin-bottom: 3rem;
+        margin-bottom: 2.6rem;
     }
 
     #about p,
@@ -355,38 +369,40 @@ footer {
     #skills ul li {
         margin: 1rem 0rem 1rem 4rem;
     }
+
     #contact_icons {
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
     }
+
     footer {
         font-size: small;
         margin-top: 2rem;
         padding-bottom: 0.5rem;
     }
 }
-@media(max-width: 414px) {
-    #navbar{
+
+@media(max-width: 430px) {
+    #navbar {
         display: flex;
         justify-content: center;
     }
+
     #navbar #container {
         margin-left: 0rem;
         margin-right: 0rem;
     }
-    nav{
-        display: none;
-    }
+
     #about p,
     #work p {
-        padding: 0px 3rem;
+        padding: 0px 2rem;
     }
 
     #skills h2 {
-        padding-left: 3rem;
+        padding-left: 2rem;
     }
 
     #skills ul li {
-        margin: 1rem 0rem 1rem 3rem;
+        margin: 1rem 0rem 1rem 2rem;
     }
 }
