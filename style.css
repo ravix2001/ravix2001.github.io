@@ -28,6 +28,7 @@ nav ul {
 nav ul li {
     display: flex;
     list-style: none;
+    line-height: 1.8rem;
 }
 
 nav ul li a {
@@ -97,6 +98,7 @@ nav ul li a {
     font-size: x-large;
     font-weight: bold;
     margin-left: 6rem;
+    line-height: 2.5rem;
 }
 
 span {
@@ -136,6 +138,8 @@ span {
 #about p,
 #work p {
     padding: 0px 12rem;
+    line-height: 1.5rem;
+    text-align: center;
 }
 
 /*skills*/
@@ -307,10 +311,6 @@ footer {
         height: 3rem;
     }
 
-    nav ul li {
-        font-size: small;
-    }
-
     #hero {
         display: grid;
     }
@@ -348,7 +348,7 @@ footer {
     }
 
     .section {
-        font-size: small;
+        font-size: normal;
         padding-top: 4rem;
         margin-bottom: 0rem;
     }
