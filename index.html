@@ -129,15 +129,17 @@
                 </div>
                 <div class="box">
                     <div id="form_box">
-                        <form action="/action">
-                            <input class="input" name="fname" type="text" placeholder="Name" required>
-                            <input class="input" name="mail" type="email" placeholder="Email" required>
-                            <textarea class="input" name="feedback" id="msg" rows="10" cols="30"
+                        <form name="submit-to-google-sheet">
+                            <input class="input" name="Name" type="text" placeholder="Name" required>
+                            <input class="input" name="Email" type="email" placeholder="Email" required>
+                            <textarea class="input" name="Feedback" rows="10" cols="30"
                                 placeholder="Please give your feedback!" required></textarea>
                             <button class="input" type="submit">Submit</button>
                         </form>
                     </div>
-
+                    <div id="success_msg">
+                        <p id="msg"></p>
+                    </div>
                 </div>
             </div>
         </div>
