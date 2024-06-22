@@ -194,6 +194,7 @@ h2 {
 .mail {
     text-decoration: none;
     color: #ffff;
+    font-weight: bold;
 }
 
 #form_box {
