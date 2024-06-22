@@ -191,14 +191,13 @@ h2 {
     margin-right: 1rem;
 }
 
-.direct_contact a {
-    text-decoration: none;
+.contact .direct_contact a {
     color: #ffff;
+    text-decoration: none;
     font-weight: bold;
 }
 
 #form_box {
-
     display: flex;
     justify-content: center;
     align-items: start;
