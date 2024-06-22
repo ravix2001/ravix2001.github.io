@@ -191,10 +191,11 @@ h2 {
     margin-right: 1rem;
 }
 
-.contact a{
+.contact a {
     text-decoration: none;
     color: #ffff;
 }
+
 #form_box {
 
     display: flex;
@@ -398,12 +399,13 @@ footer {
         margin-bottom: 2.6rem;
     }
 
-    h1{
+    h1 {
         text-decoration: underline 1.5px;
         text-decoration-color: rgb(255, 0, 55);
         text-underline-offset: 5px;
-        
+
     }
+
     #about p,
     #work p {
         padding: 0px 3rem;
