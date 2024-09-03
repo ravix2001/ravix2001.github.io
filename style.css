@@ -181,6 +181,10 @@ h2 {
     margin-bottom: 1rem;
 }
 
+#contact_no {
+    display: none;
+}
+
 #contact_icons {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
