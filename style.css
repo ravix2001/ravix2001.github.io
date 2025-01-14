@@ -118,8 +118,8 @@ span {
 }
 
 #photos img:hover {
-    border: 0.6vw solid #ff00d9;
-    box-shadow: 0 0 60px #ff00d9;
+    border: 0.6vw solid rgb(255, 0, 55);
+    box-shadow: 0 0 60px rgb(255, 0, 55);
 }
 
 .section {
@@ -274,17 +274,17 @@ footer {
     @keyframes self_glow {
         0% {
             border: 0.6vw solid #4d4d4d;
-            box-shadow: 0 0 0 #ff00d9;
+            box-shadow: 0 0 0 rgb(255, 0, 55);
         }
 
         50% {
-            border: 0.6vw solid #ff00d9;
-            box-shadow: 0 0 60px #ff00d9;
+            border: 0.6vw solid rgb(255, 0, 55);
+            box-shadow: 0 0 60px rgb(255, 0, 55);
         }
 
         100% {
             border: 0.6vw solid #4d4d4d;
-            box-shadow: 0 0 0 #ff00d9;
+            box-shadow: 0 0 0 rgb(255, 0, 55);
         }
     }
 
