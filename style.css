@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: #080808;
+    color: #ffffff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -8,13 +10,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    background-color: #080808;
-    color: #ffff;
-}
-
 /*navbar*/
-
 .logo img {
     height: 5rem;
 }
@@ -30,6 +26,7 @@ nav ul li {
     list-style: none;
     line-height: 1.8rem;
 }
+
 #about p a,
 nav ul li a {
     color: #ffff;
@@ -72,7 +69,6 @@ nav ul li a {
     position: fixed;
     top: 0;
     width: 100vw;
-    background-color: #080808;
     z-index: 1;
 }
 
