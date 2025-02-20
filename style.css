@@ -104,7 +104,7 @@ span {
 
 #photos img {
     background-size: cover;
-    object-fit: contain;
+    object-fit: cover;
     height: 24vw;
     width: 24vw;
     background-color: #080808;
