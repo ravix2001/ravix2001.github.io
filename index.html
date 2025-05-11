@@ -1,136 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ravi Pandit | Portfolio</title>
+    <link rel="icon" href="assets/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ravi</title>
-    <link rel="icon" href="images/favicon.png">
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <div id="navbar">
-        <div id="container">
-            <div class="logo">
-                <img src="images/logo-dark.png" alt="logo">
-            </div>
-            <nav>
-                <ul>
-                    <li><a class="hover-underline-animation" href="#main">Home</a></li>
-                    <li><a class="hover-underline-animation" href="#about">About</a></li>
-                    <li><a class="hover-underline-animation" href="#skills">Skills</a></li>
-                    <li><a class="hover-underline-animation" href="#work">Work</a></li>
-                    <li><a class="hover-underline-animation" href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+  <body>
+    <header class="navbar">
+      <div class="logo">Ravi</div>
+      <nav class="nav-links">
+        <a href="#main">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#work">Work</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
+    </header>
 
-    <div id="main">
-        <div class="mobile_view" id="hero">
-            <div id="bio">
-                <p>Hi,<br>I am <span>Ravi Pandit</span><br>I am a <span>Computer Engineer</span></p>
-            </div>
-            <div class="mobile_view" id="photos">
-                <img src="images/image.png" alt="photo">
-            </div>
-        </div>
-        <div class="section" id="about">
-            <div class="heading">
-                <h1 class="hover-underline-animation">About Me</h1>
-            </div>
-            <p>I'm Ravi, a dedicated computer engineer fueled by a profound curiosity for technology and a relentless drive to innovate. With 2 years of experience, my expertise spans across various domains of computer engineering, including software development, system design, networking, and database management. Throughout my journey, I've honed my skills in android development and web development enabling me to tackle complex challenges and deliver robust solutions. In my current role, I've led groundbreaking projects leveraging cutting-edge technologies to address real-world problems. From designing scalable systems to optimizing code performance, I thrive on pushing the boundaries of what's possible in the digital realm. I am currently pursuing my third year Bachelor of Engineering in Computer from <a href="https://www.ioepc.edu.np/" target="_main"><strong>Purwanchal Engineering Campus, IOE, TU, Dharan</strong></a>, I continuously seek opportunities to expand my knowledge and expertise. My passion for technology extends beyond the workplace, as evidenced by my active involvement in Artificial Intelligence & Machine Learning. I'm eager to connect with like-minded professionals and contribute to the ever-evolving landscape of computer engineering. Let's build something remarkable together.
-            </p>
-        </div>
-        <div class="section" id="skills">
-            <div class="heading">
-                <h1 class="hover-underline-animation">Skills</h1>
-            </div>
-            <h2>Professional Skills</h2>
-            <ul>
-                <li>JAVA</li>
-                <li>MySQL</li>
-                <li>Java Database Connectivity (JDBC)</li>
-                <li>Servlets</li>
-                <li>JavaServer Pages (JSP)</li>
-                <li>Python</li>
-                <li>C, C++</li>
-                <li>JavaScript</li>
-            </ul>
-        </div>
-        <div class="section" id="work">
-            <div class="heading">
-                <h1 class="hover-underline-animation">Work</h1>
-            </div>
-            <p>I am highly interested in pursuing opportunities as a Java developer or an Android developer. With a strong passion for creating efficient and scalable applications, I enjoy leveraging Java to build robust back-end systems. At the same time, I am enthusiastic about Android development, where I can design and implement user-friendly mobile applications that provide exceptional experiences. My skills and dedication align perfectly with the demands of these roles, and I am eager to contribute to innovative projects in these areas.</p>
-        </div>
-        <div class="section" id="contact">
-            <div class="heading">
-                <h1 class="hover-underline-animation">Contact Me</h1>
-            </div>
-            <div class="container">
-                <div class="box">
-                    <div class="contact">
-                        <h2>Find me on</h2>
-                    </div>
-                    <div class="contact" id="contact_icons">
+    <section id="main" class="hero">
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="highlight">Ravi&nbsp;Pandit</span></h1>
+        <p><span class="typewriter"></span></p>
+        <a href="#contact" class="btn primary">Hire Me</a>
+        <a href="assets/Ravi Pandit.pdf" class="btn secondary" download
+          >View Resume</a
+        >
+      </div>
+      <div class="hero-image">
+        <img src="assets/image.png" alt="Ravi Pandit" />
+      </div>
+    </section>
 
-                        <a href="https://www.facebook.com/profile.php?id=100051994455199" target="_main"> <?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg width="40" height="40" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M512,256c0,-141.385 -114.615,-256 -256,-256c-141.385,0 -256,114.615 -256,256c0,127.777 93.616,233.685 216,252.89l0,-178.89l-65,0l0,-74l65,0l0,-56.4c0,-64.16 38.219,-99.6 96.695,-99.6c28.009,0 57.305,5 57.305,5l0,63l-32.281,0c-31.801,0 -41.719,19.733 -41.719,39.978l0,48.022l71,0l-11.35,74l-59.65,0l0,178.89c122.385,-19.205 216,-125.113 216,-252.89Z" style="fill:#1877f2;fill-rule:nonzero;"/><path d="M355.65,330l11.35,-74l-71,0l0,-48.022c0,-20.245 9.917,-39.978 41.719,-39.978l32.281,0l0,-63c0,0 -29.297,-5 -57.305,-5c-58.476,0 -96.695,35.44 -96.695,99.6l0,56.4l-65,0l0,74l65,0l0,178.89c13.033,2.045 26.392,3.11 40,3.11c13.608,0 26.966,-1.065 40,-3.11l0,-178.89l59.65,0Z" style="fill:#fff;fill-rule:nonzero;"/></g></svg>
-                        </a>
+    <section id="about">
+      <div class="section-title">About Me</div>
+      <p>
+        I'm Ravi, a dedicated computer engineer with 2 years of experience in
+        software and web development. I'm currently pursuing my Bachelor's in
+        Computer Engineering at
+        <a href="https://www.ioepc.edu.np/" target="_blank"
+          >Purwanchal Engineering Campus, Dharan, IOE, TU</a
+        >. I specialize in backend development using Spring Boot, building
+        robust RESTful APIs, and integrating both SQL (MySQL) and NoSQL
+        (MongoDB) databases. I enjoy designing scalable systems, implementing
+        secure authentication, and writing testable, maintainable code.
+      </p>
+    </section>
 
-                        <a href="https://www.instagram.com/ravipandit2001?igsh=dXZkdHhxMjF4NmQ2" target="_main"><?xml version="1.0" ?><svg width="40" height="40" id="Apple" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style>.cls-1{fill:url(#Nepojmenovaný_přechod_27);}.cls-2{fill:#fff;}</style><linearGradient gradientUnits="userSpaceOnUse" id="Nepojmenovaný_přechod_27" x1="328.27" x2="183.73" y1="508.05" y2="3.95"><stop offset="0" stop-color="#ffdb73"/><stop offset="0.08" stop-color="#fdad4e"/><stop offset="0.15" stop-color="#fb832e"/><stop offset="0.19" stop-color="#fa7321"/><stop offset="0.23" stop-color="#f6692f"/><stop offset="0.37" stop-color="#e84a5a"/><stop offset="0.48" stop-color="#e03675"/><stop offset="0.55" stop-color="#dd2f7f"/><stop offset="0.68" stop-color="#b43d97"/><stop offset="0.97" stop-color="#4d60d4"/><stop offset="1" stop-color="#4264db"/></linearGradient></defs><title/><rect class="cls-1" height="465.06" rx="107.23" ry="107.23" width="465.06" x="23.47" y="23.47"/><path class="cls-2" d="M331,115.22a66.92,66.92,0,0,1,66.65,66.65V330.13A66.92,66.92,0,0,1,331,396.78H181a66.92,66.92,0,0,1-66.65-66.65V181.87A66.92,66.92,0,0,1,181,115.22H331m0-31H181c-53.71,0-97.66,44-97.66,97.66V330.13c0,53.71,44,97.66,97.66,97.66H331c53.71,0,97.66-44,97.66-97.66V181.87c0-53.71-43.95-97.66-97.66-97.66Z"/><path class="cls-2" d="M256,198.13A57.87,57.87,0,1,1,198.13,256,57.94,57.94,0,0,1,256,198.13m0-31A88.87,88.87,0,1,0,344.87,256,88.87,88.87,0,0,0,256,167.13Z"/><circle class="cls-2" cx="346.81" cy="163.23" r="21.07"/></svg>
-                        </a>
+    <section id="skills">
+      <div class="section-title">Skills</div>
+      <div class="skills-grid">
+        <div class="skill-card">Java</div>
+        <div class="skill-card">Spring Boot</div>
+        <div class="skill-card">RESTful APIs</div>
+        <div class="skill-card">JUnit</div>
+        <div class="skill-card">Maven</div>
+        <div class="skill-card">MySQL</div>
+        <div class="skill-card">HTML</div>
+        <div class="skill-card">CSS</div>
+        <div class="skill-card">Python</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">Git & GitHub</div>
+      </div>
+    </section>
 
-                        <a href="https://github.com/ravix2001" target="_main"><svg xmlns="http://www.w3.org/2000/svg"
-                                width="40" height="40" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);">
-                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                    d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z">
-                                </path>
-                            </svg>
-                        </a>
+    <section id="work">
+      <div class="section-title">My Work</div>
+      <p>
+        As a backend developer, I build secure and scalable RESTful APIs using
+        Java and Spring Boot. I design databases with MySQL and MongoDB based on
+        project needs and integrate them efficiently. I implement authentication
+        using Spring Security and write unit tests with JUnit/Mockito. My
+        workflow includes version control with Git, API testing with Postman,
+        and delivering production-grade backend systems.
+      </p>
+    </section>
 
-                        <a href="https://www.linkedin.com/in/ravipandit2001" target="_main"><?xml version="1.0" ?><!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg width="40" height="40" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="g5891"><path d="M512,64c0,-35.323 -28.677,-64 -64,-64l-384,0c-35.323,0 -64,28.677 -64,64l0,384c0,35.323 28.677,64 64,64l384,0c35.323,0 64,-28.677 64,-64l0,-384Z" id="background" style="fill:#2867b2;"/><g id="shapes"><rect height="257.962" id="rect11" style="fill:#fff;" width="85.76" x="61.053" y="178.667"/><path d="M104.512,54.28c-29.341,0 -48.512,19.29 -48.512,44.573c0,24.752 18.588,44.574 47.377,44.574l0.554,0c29.903,0 48.516,-19.822 48.516,-44.574c-0.555,-25.283 -18.611,-44.573 -47.935,-44.573Z" id="path13-0" style="fill:#fff;fill-rule:nonzero;"/><path d="M357.278,172.601c-45.49,0 -65.866,25.017 -77.276,42.589l0,-36.523l-85.738,0c1.137,24.197 0,257.961 0,257.961l85.737,0l0,-144.064c0,-7.711 0.554,-15.42 2.827,-20.931c6.188,-15.4 20.305,-31.352 43.993,-31.352c31.012,0 43.436,23.664 43.436,58.327l0,138.02l85.741,0l0,-147.93c0,-79.237 -42.305,-116.097 -98.72,-116.097Z" id="path15" style="fill:#fff;fill-rule:nonzero;"/></g></g></svg>
-                        </a>
-                        
-                    </div>
-                    <div class="contact">
-                        <a style="color: #ffff; text-decoration: none;"
-                            href="mailto:ravipandit2001.11.02@gmail.com"><b>ravipandit2001.11.02@gmail.com</b></a>
-                    </div>
-                    <div class="contact" id="contact_no">
-                        <a style="color: #ffff; text-decoration: none;" href="tel:9825335399"><b>+977 9825335399</b></a>
-                    </div>
-                </div>
-                <div class="box">
-                    <div id="form_box">
-                        <form name="submit-to-google-sheet">
-                            <input class="input" name="Name" type="text" placeholder="Name" required>
-                            <input class="input" name="Email" type="email" placeholder="Email" required>
-                            <textarea class="input" name="Feedback" rows="10" cols="30"
-                                placeholder="Please give your feedback!" required></textarea>
-                            <button class="input" type="submit">Submit</button>
-                        </form>
-                    </div>
-                    <div id="success_msg">
-                        <p id="msg"></p>
-                    </div>
-                </div>
-            </div>
+    <section id="projects">
+      <div class="section-title">Projects</div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Journal Web App</h3>
+          <p>
+            RESTful application using Spring Boot and MongoDB Atlas. Implemented
+            role-based access with Spring Security, CRUD APIs, HTTP Basic Auth,
+            and transaction management. Used Lombok for cleaner code and wrote
+            unit tests with JUnit/Mockito.
+          </p>
         </div>
-    </div>
+        <div class="project-card">
+          <h3>Sentiment Analysis Browser Extension</h3>
+          <p>
+            Trained a Logistic Regression model with TF-IDF to classify
+            e-commerce product reviews. Scrapes reviews from Amazon/Daraz,
+            provides insights, and integrates with Firefox via browser extension
+            for real-time sentiment feedback.
+          </p>
+        </div>
+        <div class="project-card">
+          <h3>Job Portal Web App</h3>
+          <p>CRUD-based webapp using Spring Boot, MongoDB and Thymeleaf.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="achievements">
+        <div class="section-title">Achievements</div>
+        <ul style="list-style: disc; margin-top: 1rem; text-align: left; padding-left: 12%;">
+            <li>Pursued course on <strong>Supervised Machine Learning: Regression and Classification</strong></li>
+        </ul>
+    </section> -->
+
+    <section id="contact">
+      <div class="section-title">Contact Me</div>
+      <div class="contact-container">
+        <div class="contact-socials">
+          <a
+            href="https://github.com/ravix2001"
+            target="_blank"
+            aria-label="GitHub Profile"
+            title="GitHub Profile"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://linkedin.com/in/ravipandit2001"
+            target="_blank"
+            aria-label="LinkedIn Profile"
+            title="LinkedIn Profile"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+
+          <a
+            href="mailto:ravipandit2001.11.02@gmail.com"
+            aria-label="Send Email"
+            title="Send Email"
+          >
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+        <form name="submit-to-google-sheet" class="contact-form">
+          <input type="text" name="Name" placeholder="Your Name" required />
+          <input type="email" name="Email" placeholder="Your Email" required />
+          <textarea
+            name="Feedback"
+            placeholder="Your Message"
+            rows="5"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <div id="toast" class="toast">Submitted successfully!</div>
 
     <footer>
-        <div class="foot">
-            <div class="logo">
-                <img src="images/logo-dark.png" alt="Ravi">
-            </div>
-        </div>
-        <div class="foot">
-            <p>Copyright &copy 2025 <b>|</b> Ravi Pandit <b>|</b> All rights reserved.</p>
-        </div>
+      <p>&copy; 2025 Ravi Pandit. All rights reserved.</p>
     </footer>
-    <script src="main.js"></script>
-</body>
 
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      const typed = new Typed(".typewriter", {
+        strings: ["Computer Engineer", "Java Developer"],
+        typeSpeed: 60,
+        backSpeed: 30,
+        loop: true,
+      });
+    </script>
+
+    <script src="main.js"></script>
+
+</body>
 </html>
