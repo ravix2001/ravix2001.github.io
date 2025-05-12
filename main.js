@@ -31,7 +31,7 @@ scrollLinks.forEach(link => {
 // Form submission script
 // This script submits the form data to a Google Apps Script web app
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyprsAjBP_kbXJKu0p19NojPZvgHmYA0vrbK2H-HM0FV9mKEQdvvYlPIQ6QSFar7UFc/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyQqNmR01hRQ783yGFKlH0hdhPXquvzI5KokEQiYwy56zIPoPafeONlW3FFLMOeRphDWg/exec'
 const form = document.forms['submit-to-google-sheet']
 const toast = document.getElementById("toast");
 
