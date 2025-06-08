@@ -9,23 +9,23 @@ hamburger.addEventListener('click', () => {
 });
 
 
-// Smooth scrolling for anchor links
-const scrollLinks = document.querySelectorAll('a[href^="#"]');
+// // Smooth scrolling for anchor links
+// const scrollLinks = document.querySelectorAll('a[href^="#"]');
 
-scrollLinks.forEach(link => {
-    link.addEventListener('click', e => {
-        e.preventDefault(); // Prevent default anchor behavior
-        const targetId = link.getAttribute('href').substring(1); // Get the target ID
-        const targetElement = document.getElementById(targetId);
+// scrollLinks.forEach(link => {
+//     link.addEventListener('click', e => {
+//         e.preventDefault(); // Prevent default anchor behavior
+//         const targetId = link.getAttribute('href').substring(1); // Get the target ID
+//         const targetElement = document.getElementById(targetId);
 
-        if (targetElement) {
-            targetElement.scrollIntoView({
-                behavior: 'smooth', // Smooth scrolling
-                block: 'start' // Align to the top of the section
-            });
-        }
-    });
-});
+//         if (targetElement) {
+//             targetElement.scrollIntoView({
+//                 behavior: 'smooth', // Smooth scrolling
+//                 block: 'start' // Align to the top of the section
+//             });
+//         }
+//     });
+// });
 
 
 // Form submission script
