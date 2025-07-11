@@ -8,6 +8,15 @@ hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active');
 });
 
+// Close menu on nav link click (mobile only)
+document.querySelectorAll(".nav-links a").forEach((link) => {
+  link.addEventListener("click", () => {
+    if (navLinks.classList.contains("active")) {
+      hamburger.classList.remove("active");
+      navLinks.classList.remove("active");
+    }
+  });
+});
 
 // // Smooth scrolling for anchor links
 // const scrollLinks = document.querySelectorAll('a[href^="#"]');
