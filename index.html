@@ -129,27 +129,60 @@
     </section>
 
     <section id="projects">
-      <div class="section-title">Projects</div>
+      <div class="section-title">My Projects</div>
       <div class="projects-grid">
-        <a href="https://journal-psi-eight.vercel.app/" target="_blank" class="project-card">
+        <div class="project-card" data-aos="fade-up">
           <h3>Journal Web App</h3>
           <p>
-            A secure journal application with Dockerized Spring Boot backend (deployed on Render) and React frontend (on Vercel). Features JWT auth, role-based access, full CRUD, CRON-based background tasks, MongoDB integration, Swagger docs, and unit testing with JUnit.
+            <!-- Secure Dockerized Spring Boot & React journal app with JWT auth,
+            MongoDB, Swagger, CRON tasks, and unit-tested backend. -->
+            A secure journal application with Dockerized Spring Boot backend
+            (deployed on Render) and React frontend (on Vercel). Features JWT
+            auth, role-based access, full CRUD, CRON-based background tasks,
+            MongoDB integration, Swagger docs, and unit testing with JUnit.
           </p>
-        </a>
-        <a href="https://addons.mozilla.org/en-US/firefox/addon/product-review-insight/" target="_blank" class="project-card">
-          <h3>Sentiment Analysis Browser Extension</h3>
+          <div class="project-links">
+            <a href="https://journal-psi-eight.vercel.app/" target="_blank">
+              View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <h3>Sentiment Analysis Extension</h3>
           <p>
+            <!-- Firefox add-on using TF‑IDF + Logistic Regression to analyze product
+            reviews from e‑commerce sites in real-time. -->
             Trained a Logistic Regression model with TF-IDF to classify
             e-commerce product reviews. Scrapes reviews from Amazon/Daraz,
             provides insights, and integrates with Firefox via browser extension
             for real-time sentiment feedback.
           </p>
-        </a>
-        <a href="https://merojob.onrender.com/" target="_blank" class="project-card">
+          <div class="project-links">
+            <a
+              href="https://addons.mozilla.org/en-US/firefox/addon/product-review-insight/"
+              target="_blank"
+            >
+              View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
           <h3>Job Portal Web App</h3>
-          <p>Developed a full-stack job portal using Spring Boot, MongoDB, and Thymeleaf. Implemented RESTful APIs and dynamic web pages for posting, viewing, and managing job listings. </p>
-        </a>
+          <p>
+            <!-- Full-stack job portal with Spring Boot, MongoDB, Thymeleaf, and
+            RESTful APIs for posting and managing job listings. -->
+            Developed a full-stack job portal using Spring Boot, MongoDB, and
+            Thymeleaf. Implemented RESTful APIs and dynamic web pages for
+            posting, viewing, and managing job listings.
+          </p>
+          <div class="project-links">
+            <a href="https://merojob.onrender.com/" target="_blank">
+              View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -209,8 +242,10 @@
     <div id="toast" class="toast">Submitted successfully!</div>
 
     <footer>
-      <p>&copy; 2025 Ravi Pandit. All rights reserved. <br>
-      Licensed under the <a href="LICENSE" target="_blank">MIT License</a>.</p>
+      <p>
+        &copy; 2025 Ravi Pandit. All rights reserved. <br />
+        Licensed under the <a href="LICENSE" target="_blank">MIT License</a>.
+      </p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
