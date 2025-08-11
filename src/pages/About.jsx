@@ -20,7 +20,7 @@ const About = () => {
               <div className="animate-fade-in-left">
                 <div className="mb-8">
                   <img
-                    src="src/assets/image.png" // Replace with your photo path
+                    src="public/assets/image.png"
                     alt="Profile Photo"
                     className="w-64 h-64 mx-auto rounded-full object-cover shadow-xl border-4 border-gray-200 dark:border-gray-600"
                   />
