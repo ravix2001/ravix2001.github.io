@@ -16,7 +16,15 @@ const About = () => {
               About Me
             </h2>
             <div className="grid md:grid-cols-2 gap-12 items-center">
+              {/* Profile Photo Section */}
               <div className="animate-fade-in-left">
+                <div className="mb-8">
+                  <img
+                    src="src/assets/image.png" // Replace with your photo path
+                    alt="Profile Photo"
+                    className="w-64 h-64 mx-auto rounded-full object-cover shadow-xl border-4 border-gray-200 dark:border-gray-600"
+                  />
+                </div>
                 <p className="text-gray-600 dark:text-gray-300 mb-6">
                   I'm a passionate computer engineer with expertise in Java
                   development and artificial intelligence. My journey in
