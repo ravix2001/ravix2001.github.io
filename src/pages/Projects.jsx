@@ -2,7 +2,6 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Github, ExternalLink } from "lucide-react";
-import { Code, Server, Brain, BookOpen, Cpu, Database } from "lucide-react";
 
 const Projects = () => {
   const projects = [

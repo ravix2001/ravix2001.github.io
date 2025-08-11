@@ -1,7 +1,6 @@
 import React from "react";
 import { Github, Linkedin } from "lucide-react";
 import { Award, Code, Brain, BookOpen } from "lucide-react";
-import { useEffect, useRef, useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 

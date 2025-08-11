@@ -4,46 +4,26 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import {
   Code,
-  Server,
   Brain,
   BookOpen,
-  Cpu,
   Database,
   Leaf,
   Atom,
-  Wind,
   Package,
   Coffee,
-  TestTube,
-  GitBranch,
   GitMerge,
-  GitFork,
-  GitPullRequest,
-  GitCompare,
   Box,
   Calculator,
   Grid,
-  Table,
-  LucideWind,
   BarChart3,
-  Eye,
-  Target,
   Zap,
-  Activity,
-  Workflow,
   TrendingUp,
-  Network,
   Globe,
   Layers,
   FileCode2,
   Palette,
   Shield,
-  Play,
-  Binary,
-  Puzzle,
   LineChart,
-  Settings,
-  Sparkles,
   FlaskConical,
   Rocket,
   Cloud,
@@ -74,53 +54,188 @@ const Skills = () => {
 
   const skills = [
     // Core Programming & Frameworks
-    { name: "Java", icon: Coffee, level: 80, id: "java", category: "development" },
-    { name: "Spring Boot", icon: Leaf, level: 80, id: "spring", category: "development" },
-    { name: "Python", icon: FileCode2, level: 80, id: "python", category: "development" },
-    { name: "JavaScript", icon: Code, level: 70, id: "javascript", category: "development" },
-    { name: "React", icon: Atom, level: 70, id: "react", category: "development" },
-    { name: "SQL/NoSQL", icon: Database, level: 80, id: "sql", category: "development" },
+    {
+      name: "Java",
+      icon: Coffee,
+      level: 80,
+      id: "java",
+      category: "development",
+    },
+    {
+      name: "Spring Boot",
+      icon: Leaf,
+      level: 80,
+      id: "spring",
+      category: "development",
+    },
+    {
+      name: "Python",
+      icon: FileCode2,
+      level: 80,
+      id: "python",
+      category: "development",
+    },
+    {
+      name: "JavaScript",
+      icon: Code,
+      level: 70,
+      id: "javascript",
+      category: "development",
+    },
+    {
+      name: "React",
+      icon: Atom,
+      level: 70,
+      id: "react",
+      category: "development",
+    },
+    {
+      name: "SQL/NoSQL",
+      icon: Database,
+      level: 80,
+      id: "sql",
+      category: "development",
+    },
 
     // Web & API Development
-    { name: "RESTful APIs", icon: Globe, level: 80, id: "restapi", category: "development" },
-    { name: "Tailwind CSS", icon: Palette, level: 75, id: "tailwind", category: "development" },
-    { name: "JUnit", icon: Shield, level: 70, id: "junit", category: "development" },
-    { name: "Maven", icon: Package, level: 75, id: "maven", category: "development" },
+    {
+      name: "RESTful APIs",
+      icon: Globe,
+      level: 80,
+      id: "restapi",
+      category: "development",
+    },
+    {
+      name: "Tailwind CSS",
+      icon: Palette,
+      level: 75,
+      id: "tailwind",
+      category: "development",
+    },
+    {
+      name: "JUnit",
+      icon: Shield,
+      level: 70,
+      id: "junit",
+      category: "development",
+    },
+    {
+      name: "Maven",
+      icon: Package,
+      level: 75,
+      id: "maven",
+      category: "development",
+    },
 
     // AI/ML & Data Science
-    { name: "Machine Learning", icon: Brain, level: 80, id: "ml", category: "ai-ml" },
+    {
+      name: "Machine Learning",
+      icon: Brain,
+      level: 80,
+      id: "ml",
+      category: "ai-ml",
+    },
     {
       name: "Natural Language Processing",
       icon: BookOpen,
       level: 80,
       id: "nlp",
-      category: "ai-ml"
+      category: "ai-ml",
     },
-    { name: "Deep Learning", icon: Layers, level: 70, id: "deeplearning", category: "ai-ml" },
+    {
+      name: "Deep Learning",
+      icon: Layers,
+      level: 70,
+      id: "deeplearning",
+      category: "ai-ml",
+    },
     { name: "PyTorch", icon: Zap, level: 60, id: "pytorch", category: "ai-ml" },
-    { name: "Scikit-learn", icon: FlaskConical, level: 80, id: "sklearn", category: "ai-ml" },
-    { name: "NumPy", icon: Calculator, level: 85, id: "numpy", category: "ai-ml" },
+    {
+      name: "Scikit-learn",
+      icon: FlaskConical,
+      level: 80,
+      id: "sklearn",
+      category: "ai-ml",
+    },
+    {
+      name: "NumPy",
+      icon: Calculator,
+      level: 85,
+      id: "numpy",
+      category: "ai-ml",
+    },
     { name: "Pandas", icon: Grid, level: 85, id: "pandas", category: "ai-ml" },
-    { name: "Matplotlib", icon: LineChart, level: 80, id: "matplotlib", category: "ai-ml" },
-    { name: "Data Visualization", icon: BarChart3, level: 80, id: "dataviz", category: "ai-ml" },
-    { name: "Statistical Analysis", icon: TrendingUp, level: 75, id: "stats", category: "ai-ml" },
-    
+    {
+      name: "Matplotlib",
+      icon: LineChart,
+      level: 80,
+      id: "matplotlib",
+      category: "ai-ml",
+    },
+    {
+      name: "Data Visualization",
+      icon: BarChart3,
+      level: 80,
+      id: "dataviz",
+      category: "ai-ml",
+    },
+    {
+      name: "Statistical Analysis",
+      icon: TrendingUp,
+      level: 75,
+      id: "stats",
+      category: "ai-ml",
+    },
+
     // DevOps & Tools
-    { name: "Git & GitHub", icon: GitMerge, level: 85, id: "git", category: "development" },
-    { name: "Docker", icon: Box, level: 70, id: "docker", category: "development" },
-    { name: "Vercel", icon: Rocket, level: 75, id: "vercel", category: "development" },
-    { name: "Render", icon: Cloud, level: 75, id: "render", category: "development" },
+    {
+      name: "Git & GitHub",
+      icon: GitMerge,
+      level: 85,
+      id: "git",
+      category: "development",
+    },
+    {
+      name: "Docker",
+      icon: Box,
+      level: 70,
+      id: "docker",
+      category: "development",
+    },
+    {
+      name: "Vercel",
+      icon: Rocket,
+      level: 75,
+      id: "vercel",
+      category: "development",
+    },
+    {
+      name: "Render",
+      icon: Cloud,
+      level: 75,
+      id: "render",
+      category: "development",
+    },
   ];
 
   const categories = [
     { id: "all", name: "All Skills", count: skills.length },
-    { id: "development", name: "Development", count: skills.filter(s => s.category === "development").length },
-    { id: "ai-ml", name: "AI/ML", count: skills.filter(s => s.category === "ai-ml").length },
+    {
+      id: "development",
+      name: "Development",
+      count: skills.filter((s) => s.category === "development").length,
+    },
+    {
+      id: "ai-ml",
+      name: "AI/ML",
+      count: skills.filter((s) => s.category === "ai-ml").length,
+    },
   ];
 
-  const filteredSkills = activeCategory === "all" 
-    ? skills 
-    : skills.filter(skill => skill.category === activeCategory);
+  const filteredSkills =
+    activeCategory === "all"
+      ? skills
+      : skills.filter((skill) => skill.category === activeCategory);
 
   return (
     <>
@@ -135,9 +250,12 @@ const Skills = () => {
           <h2 className="text-center text-gray-900 dark:text-white mb-8 animate-fade-in-up">
             Skills & Technologies
           </h2>
-          
+
           {/* Category Filter Buttons */}
-          <div className="flex justify-center mb-12 animate-fade-in-up" style={{ animationDelay: "200ms" }}>
+          <div
+            className="flex justify-center mb-12 animate-fade-in-up"
+            style={{ animationDelay: "200ms" }}
+          >
             <div className="inline-flex bg-white dark:bg-gray-800 rounded-lg p-1 shadow-lg border border-gray-200 dark:border-gray-700">
               {categories.map((category) => (
                 <button
