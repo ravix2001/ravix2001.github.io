@@ -39,7 +39,7 @@ const Hero = () => {
                 Get In Touch
               </button>
               <a
-                href="public/assets/Ravi_Pandit_Resume.pdf"
+                href="/assets/Ravi_Pandit_Resume.pdf"
                 download="Ravi_Pandit_Resume.pdf"
                 className="btn-secondary-dark"
               >
