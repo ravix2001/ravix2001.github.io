@@ -21,15 +21,15 @@ const Testimonials = () => {
       rating: 5,
       image: "https://avatars.githubusercontent.com/u/71872897?v=4",
     },
-    {
-      id: 3,
-      name: "Emily Rodriguez",
-      role: "Product Manager at AI Solutions",
-      content:
-        "Reliable, professional, and technically excellent. The ML classification system achieved remarkable accuracy and performance.",
-      rating: 5,
-      image: "https://ext.same-assets.com/avatar-3.jpg",
-    },
+    // {
+    //   id: 3,
+    //   name: "Emily Rodriguez",
+    //   role: "Product Manager at AI Solutions",
+    //   content:
+    //     "Reliable, professional, and technically excellent. The ML classification system achieved remarkable accuracy and performance.",
+    //   rating: 5,
+    //   image: "https://ext.same-assets.com/avatar-3.jpg",
+    // },
   ];
 
   return (
