@@ -2,6 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="src\assets\favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
@@ -12,257 +18,20 @@
       content="ravi, Ravi, ravipandit, ravi-pandit, ravi pandit, Ravi Pandit, ravi pandit java, ravi pandit computer, computer, Computer, ravi pandit engineer, Computer Engineer,java, java developer, Java Developer, Spring Boot, portfolio, Portfolio, Nepal , ravi pandit nepal, ravi pandit developer, ravi pandit biratnagar"
     />
     <meta name="author" content="Ravi Pandit" />
-
+    
     <title>Ravi Pandit | Portfolio</title>
-
-    <link rel="icon" href="assets/favicon.png" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Ravi Pandit",
-        "url": "https://ravi-pandit.com.np",
-        "sameAs": [
-          "https://linkedin.com/in/ravipandit2001",
-          "https://github.com/ravix2001"
-        ],
-        "jobTitle": "Backend Developer",
-        "worksFor": {
-          "@type": "Organization",
-          "name": "Self-Employed"
-        },
-        "alumniOf": {
-          "@type": "CollegeOrUniversity",
-          "name": "Purwanchal Engineering Campus, Dharan, IOE, TU"
-        },
-        "knowsAbout": ["Java", "Spring Boot", "REST APIs", "MySQL", "MongoDB"],
-        "description": "Ravi Pandit is a Computer Engineer specializing in backend development with Java and Spring Boot. He has experience in building RESTful APIs, database design, and secure authentication."
-      }
-    </script>
   </head>
-
   <body>
-    <header class="navbar">
-      <div class="logo">Ravi</div>
-      <nav class="nav-links">
-        <a href="#main">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#work">Work</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <div class="hamburger" id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </header>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
 
-    <section id="main" class="hero">
-      <div class="hero-content">
-        <h1>Hi, I'm <span class="highlight">Ravi&nbsp;Pandit</span></h1>
-        <p><span class="typewriter"></span></p>
-        <a href="#contact" class="btn primary">Hire Me</a>
-        <a href="assets/Ravi_Pandit_Resume.pdf" class="btn secondary" download
-          >View Resume</a
-        >
-      </div>
-      <div class="hero-image">
-        <img src="assets/image.png" alt="Ravi Pandit" />
-      </div>
-    </section>
+    <!-- Netlify Forms Detection -->
+  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+    <input type="text" name="name" />
+    <input type="email" name="email" />
+    <input type="text" name="subject" />
+    <textarea name="message"></textarea>
+  </form>
 
-    <section id="about">
-      <div class="section-title">About Me</div>
-      <p>
-        I'm Ravi, a dedicated computer engineer with 2 years of experience in
-        software and web development. I'm currently pursuing my Bachelor's in
-        Computer Engineering at
-        <a href="https://www.ioepc.edu.np/" target="_blank"
-          >Purwanchal Engineering Campus, Dharan, IOE, TU</a
-        >. I specialize in backend development using Spring Boot, building
-        robust RESTful APIs, and integrating both SQL (MySQL) and NoSQL
-        (MongoDB) databases. I enjoy designing scalable systems, implementing
-        secure authentication, and writing testable, maintainable code.
-      </p>
-    </section>
-
-    <section id="skills">
-      <div class="section-title">Skills</div>
-      <div class="skills-grid">
-        <div class="skill-card">Java</div>
-        <div class="skill-card">Spring Boot</div>
-        <div class="skill-card">RESTful APIs</div>
-        <div class="skill-card">JUnit</div>
-        <div class="skill-card">Maven</div>
-        <div class="skill-card">MySQL</div>
-        <div class="skill-card">HTML</div>
-        <div class="skill-card">CSS</div>
-        <div class="skill-card">Python</div>
-        <div class="skill-card">JavaScript</div>
-        <div class="skill-card">Git & GitHub</div>
-        <div class="skill-card">Docker</div>
-      </div>
-    </section>
-
-    <section id="work">
-      <div class="section-title">My Work</div>
-      <p>
-        As a backend developer, I build secure and scalable RESTful APIs using
-        Java and Spring Boot. I design databases with MySQL and MongoDB based on
-        project needs and integrate them efficiently. I implement authentication
-        using Spring Security and write unit tests with JUnit/Mockito. My
-        workflow includes version control with Git, API testing with Postman,
-        and delivering production-grade backend systems.
-      </p>
-    </section>
-
-    <section id="projects">
-      <div class="section-title">My Projects</div>
-      <div class="projects-grid">
-        <div class="project-card" data-aos="fade-up">
-          <h3>Journal Web App</h3>
-          <p>
-            <!-- Secure Dockerized Spring Boot & React journal app with JWT auth,
-            MongoDB, Swagger, CRON tasks, and unit-tested backend. -->
-            A secure journal application with Dockerized Spring Boot backend
-            (deployed on Render) and React frontend (on Vercel). Features JWT
-            auth, role-based access, full CRUD, CRON-based background tasks,
-            MongoDB integration, Swagger docs, and unit testing with JUnit.
-          </p>
-          <div class="project-links">
-            <a href="https://journal-psi-eight.vercel.app/" target="_blank">
-              View Project <i class="fas fa-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-
-        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
-          <h3>Sentiment Analysis Extension</h3>
-          <p>
-            <!-- Firefox add-on using TF‑IDF + Logistic Regression to analyze product
-            reviews from e‑commerce sites in real-time. -->
-            Trained a Logistic Regression model with TF-IDF to classify
-            e-commerce product reviews. Scrapes reviews from Amazon/Daraz,
-            provides insights, and integrates with Firefox via browser extension
-            for real-time sentiment feedback.
-          </p>
-          <div class="project-links">
-            <a
-              href="https://addons.mozilla.org/en-US/firefox/addon/product-review-insight/"
-              target="_blank"
-            >
-              View Project <i class="fas fa-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-
-        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
-          <h3>Job Portal Web App</h3>
-          <p>
-            <!-- Full-stack job portal with Spring Boot, MongoDB, Thymeleaf, and
-            RESTful APIs for posting and managing job listings. -->
-            Developed a full-stack job portal using Spring Boot, MongoDB, and
-            Thymeleaf. Implemented RESTful APIs and dynamic web pages for
-            posting, viewing, and managing job listings.
-          </p>
-          <div class="project-links">
-            <a href="https://merojob.onrender.com/" target="_blank">
-              View Project <i class="fas fa-arrow-right"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- <section id="achievements">
-        <div class="section-title">Achievements</div>
-        <ul style="list-style: disc; margin-top: 1rem; text-align: left; padding-left: 12%;">
-            <li>Pursued course on <strong>Supervised Machine Learning: Regression and Classification</strong></li>
-        </ul>
-    </section> -->
-
-    <section id="contact">
-      <div class="section-title">Contact Me</div>
-      <div class="contact-container">
-        <div class="contact-socials">
-          <a
-            href="https://github.com/ravix2001"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="GitHub Profile"
-            title="GitHub Profile"
-          >
-            <i class="fab fa-github"></i>
-          </a>
-
-          <a
-            href="https://linkedin.com/in/ravipandit2001"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="LinkedIn Profile"
-            title="LinkedIn Profile"
-          >
-            <i class="fab fa-linkedin"></i>
-          </a>
-
-          <a
-            href="mailto:ravipandit.devmail@gmail.com"
-            aria-label="Send Email"
-            title="Send Email"
-          >
-            <i class="fas fa-envelope"></i>
-          </a>
-        </div>
-        <form name="submit-to-google-sheet" class="contact-form">
-          <input type="text" name="Name" placeholder="Your Name" required />
-          <input type="email" name="Email" placeholder="Your Email" required />
-          <textarea
-            name="Feedback"
-            placeholder="Your Message"
-            rows="5"
-            required
-          ></textarea>
-          <button type="submit">Send Message</button>
-        </form>
-      </div>
-    </section>
-
-    <div id="toast" class="toast">Submitted successfully!</div>
-
-    <footer>
-      <p>
-        &copy; 2025 Ravi Pandit. All rights reserved. <br />
-        Licensed under the <a href="LICENSE" target="_blank">MIT License</a>.
-      </p>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-      const typed = new Typed(".typewriter", {
-        strings: ["Computer Engineer", "Java Developer"],
-        typeSpeed: 60,
-        backSpeed: 30,
-        loop: true,
-      });
-    </script>
-
-    <script src="main.js"></script>
   </body>
 </html>
-
-<!--
-  Copyright (c) 2025 Ravi Pandit
-  Licensed under the MIT License.
--->
