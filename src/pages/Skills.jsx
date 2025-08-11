@@ -253,22 +253,22 @@ const Skills = () => {
 
           {/* Category Filter Buttons */}
           <div
-            className="flex justify-center mb-12 animate-fade-in-up"
+            className="flex justify-center mb-12 animate-fade-in-up px-4"
             style={{ animationDelay: "200ms" }}
           >
-            <div className="inline-flex bg-white dark:bg-gray-800 rounded-lg p-1 shadow-lg border border-gray-200 dark:border-gray-700">
+            <div className="inline-flex bg-white dark:bg-gray-800 rounded-lg p-1 shadow-lg border border-gray-200 dark:border-gray-700 max-w-full overflow-x-auto">
               {categories.map((category) => (
                 <button
                   key={category.id}
                   onClick={() => setActiveCategory(category.id)}
-                  className={`px-6 py-3 rounded-md font-medium text-sm transition-all duration-300 ${
+                  className={`px-3 sm:px-6 py-3 rounded-md font-medium text-xs sm:text-sm transition-all duration-300 whitespace-nowrap flex-shrink-0 ${
                     activeCategory === category.id
                       ? "bg-gray-800 dark:bg-gray-600 text-white shadow-md"
                       : "text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-700"
                   }`}
                 >
                   {category.name}
-                  <span className="ml-2 text-xs opacity-75">
+                  <span className="ml-1 sm:ml-2 text-xs opacity-75">
                     ({category.count})
                   </span>
                 </button>
