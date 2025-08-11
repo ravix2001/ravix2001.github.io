@@ -8,28 +8,29 @@ const Testimonials = () => {
       name: "Rajesh Pandey",
       role: "MERN Stack Developer at YOUTHIT",
       content:
-        "Outstanding Java developer with deep expertise in AI/ML. His ability to seamlessly integrate complex NLP models into practical applications like the Sentiment Analysis project truly sets him apart. His dedication and technical skills make him a valuable asset to any team.",
+        "Outstanding Java developer with strong AI/ML skills and practical NLP experience.",
       rating: 5,
       image: "https://avatars.githubusercontent.com/u/127168925?v=4",
     },
     {
       id: 2,
+      name: "Ritika Niraula",
+      role: "Student at IOE Purwanchal Campus",
+      content:
+        "Delivered impressive results with advanced NLP techniques and AI/ML knowledge.",
+      rating: 5,
+      image: "https://media.licdn.com/dms/image/v2/D4E03AQGZxMzuouF8mw/profile-displayphoto-scale_200_200/B4EZg8ri5UGcAY-/0/1753364707253?e=1757548800&v=beta&t=gaNOqPtpUxIlXOHt9SyI_S_y1TweOqiSbyXEXZbO3jI",
+    },
+    {
+      id: 3,
       name: "Nigam Yadav",
       role: "Student at IOE Purwanchal Campus",
       content:
-        "Exceptional problem-solving skills and innovative approach to NLP solutions.",
+        "Exceptional problem solver with solid Java skills and valuable project contributions.",
       rating: 5,
       image: "https://avatars.githubusercontent.com/u/71872897?v=4",
     },
-    // {
-    //   id: 3,
-    //   name: "Emily Rodriguez",
-    //   role: "Product Manager at AI Solutions",
-    //   content:
-    //     "Reliable, professional, and technically excellent. The ML classification system achieved remarkable accuracy and performance.",
-    //   rating: 5,
-    //   image: "https://ext.same-assets.com/avatar-3.jpg",
-    // },
+    
   ];
 
   return (
