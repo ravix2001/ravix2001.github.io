@@ -27,6 +27,7 @@ import {
   FlaskConical,
   Rocket,
   Cloud,
+  Sparkles,
 } from "lucide-react";
 
 const Skills = () => {
@@ -149,6 +150,13 @@ const Skills = () => {
       id: "deeplearning",
       category: "ai-ml",
     },
+    {
+      name: "Transformers",
+      icon: Sparkles,
+      level: 75,
+      id: "transformers",
+      category: "ai-ml",
+    },
     { name: "PyTorch", icon: Zap, level: 60, id: "pytorch", category: "ai-ml" },
     {
       name: "Scikit-learn",
@@ -200,20 +208,6 @@ const Skills = () => {
       icon: Box,
       level: 70,
       id: "docker",
-      category: "development",
-    },
-    {
-      name: "Vercel",
-      icon: Rocket,
-      level: 75,
-      id: "vercel",
-      category: "development",
-    },
-    {
-      name: "Render",
-      icon: Cloud,
-      level: 75,
-      id: "render",
       category: "development",
     },
   ];
