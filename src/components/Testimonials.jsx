@@ -10,7 +10,7 @@ const Testimonials = () => {
       content:
         "Outstanding Java developer with strong AI/ML skills and practical NLP experience.",
       rating: 5,
-      image: "https://avatars.githubusercontent.com/u/127168925?v=4",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQEWI1KgDHr7TA/profile-displayphoto-scale_200_200/B56ZfB5rXsHoAc-/0/1751304814298?e=1758153600&v=beta&t=0cV7s1oEA7yQVubaO9Bo57ZxDjZCEmj6Pn6DM8oUj7g",
     },
     {
       id: 2,
@@ -28,7 +28,7 @@ const Testimonials = () => {
       content:
         "Exceptional problem solver with solid Java skills and valuable project contributions.",
       rating: 5,
-      image: "https://avatars.githubusercontent.com/u/71872897?v=4",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQHvWs51Shx6UQ/profile-displayphoto-shrink_200_200/B56ZVM._foHQAY-/0/1740753336876?e=1758153600&v=beta&t=rDB_RzBxq87nKNdiuhqfcsP8uQoC48E1CTl7qESJb7Q",
     },
     
   ];

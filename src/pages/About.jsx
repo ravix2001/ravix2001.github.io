@@ -20,7 +20,7 @@ const About = () => {
               <div className="animate-fade-in-left">
                 <div className="mb-8">
                   <img
-                    src="/assets/image.png"
+                    src="/assets/ravi-pandit-profile.png"
                     alt="Ravi Pandit"
                     className="w-64 h-64 mx-auto rounded-full object-cover shadow-xl border-4 border-gray-200 dark:border-gray-600"
                   />
