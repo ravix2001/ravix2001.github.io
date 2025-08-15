@@ -25,8 +25,6 @@ import {
   Shield,
   LineChart,
   FlaskConical,
-  Rocket,
-  Cloud,
   Sparkles,
 } from "lucide-react";
 
