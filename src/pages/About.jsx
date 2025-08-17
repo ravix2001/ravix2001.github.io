@@ -21,7 +21,7 @@ const About = () => {
                 <div className="mb-8">
                   <img
                     src="/assets/ravi-pandit-profile.png"
-                    alt="Ravi Pandit"
+                    alt="Ravi Pandit - Computer Engineer from Biratnagar, Nepal"
                     className="w-64 h-64 mx-auto rounded-full object-cover shadow-xl border-4 border-gray-200 dark:border-gray-600"
                   />
                 </div>
