@@ -6,11 +6,11 @@ const Testimonials = () => {
     {
       id: 1,
       name: "Rajesh Pandey",
-      role: "MERN Stack Developer at YOUTHIT",
+      role: "MERN Stack Developer at YouthIT",
       content:
         "Outstanding Java developer with strong AI/ML skills and practical NLP experience.",
       rating: 5,
-      image: "https://media.licdn.com/dms/image/v2/D5603AQEWI1KgDHr7TA/profile-displayphoto-scale_200_200/B56ZfB5rXsHoAc-/0/1751304814298?e=1758153600&v=beta&t=0cV7s1oEA7yQVubaO9Bo57ZxDjZCEmj6Pn6DM8oUj7g",
+      // image: "https://media.licdn.com/dms/image/v2/D5603AQEWI1KgDHr7TA/profile-displayphoto-scale_200_200/B56ZfB5rXsHoAc-/0/1751304814298?e=1758153600&v=beta&t=0cV7s1oEA7yQVubaO9Bo57ZxDjZCEmj6Pn6DM8oUj7g",
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ const Testimonials = () => {
       content:
         "Delivered impressive results with advanced NLP techniques and AI/ML knowledge.",
       rating: 5,
-      image: "https://media.licdn.com/dms/image/v2/D4E03AQGZxMzuouF8mw/profile-displayphoto-scale_200_200/B4EZg8ri5UGcAY-/0/1753364707253?e=1757548800&v=beta&t=gaNOqPtpUxIlXOHt9SyI_S_y1TweOqiSbyXEXZbO3jI",
+      // image: "https://media.licdn.com/dms/image/v2/D4E03AQGZxMzuouF8mw/profile-displayphoto-scale_200_200/B4EZg8ri5UGcAY-/0/1753364707253?e=1757548800&v=beta&t=gaNOqPtpUxIlXOHt9SyI_S_y1TweOqiSbyXEXZbO3jI",
     },
     {
       id: 3,
@@ -28,7 +28,7 @@ const Testimonials = () => {
       content:
         "Exceptional problem solver with solid Java skills and valuable project contributions.",
       rating: 5,
-      image: "https://media.licdn.com/dms/image/v2/D5603AQHvWs51Shx6UQ/profile-displayphoto-shrink_200_200/B56ZVM._foHQAY-/0/1740753336876?e=1758153600&v=beta&t=rDB_RzBxq87nKNdiuhqfcsP8uQoC48E1CTl7qESJb7Q",
+      // image: "https://media.licdn.com/dms/image/v2/D5603AQHvWs51Shx6UQ/profile-displayphoto-shrink_200_200/B56ZVM._foHQAY-/0/1740753336876?e=1758153600&v=beta&t=rDB_RzBxq87nKNdiuhqfcsP8uQoC48E1CTl7qESJb7Q",
     },
     
   ];
@@ -54,11 +54,11 @@ const Testimonials = () => {
                   style={{ animationDelay: `${index * 200}ms` }}
                 >
                   <div className="flex items-center mb-4">
-                    <img
+                    {/* <img
                       src={testimonial.image}
                       alt={testimonial.name}
                       className="w-12 h-12 rounded-full mr-4"
-                    />
+                    /> */}
                     <div>
                       <h4 className="text-gray-900 dark:text-white font-semibold">
                         {testimonial.name}
