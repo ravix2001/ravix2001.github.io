@@ -57,7 +57,7 @@ const Navbar = () => {
             <div className="hidden md:flex items-center gap-6">
               <div className="flex space-x-8">
                 <Link
-                  to="/home"
+                  to="/"
                   className="text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors"
                 >
                   Home
@@ -144,7 +144,7 @@ const Navbar = () => {
             <div className="md:hidden absolute top-full left-40 right-0 bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700 shadow-lg animate-slide-down">
               <div className="flex flex-col  pr-12 py-4">
                 <Link
-                  to="/home"
+                  to="/"
                   className="px-4 py-3 text-left text-gray-600 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
                 >
                   Home
