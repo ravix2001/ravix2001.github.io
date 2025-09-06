@@ -14,7 +14,7 @@ const Testimonials = () => {
     },
     {
       id: 2,
-      name: "Ritika Niraula",
+      name: "Sony Chaudhary",
       role: "Student at IOE Purwanchal Campus",
       content:
         "Delivered impressive results with advanced NLP techniques and AI/ML knowledge.",

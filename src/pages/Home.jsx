@@ -12,7 +12,7 @@ const Home = () => {
       <div className=" bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
         <Navbar />
         <Hero />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <GetInTouch />
         <Footer />
       </div>
