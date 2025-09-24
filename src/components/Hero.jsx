@@ -21,6 +21,18 @@ const Hero = () => {
       >
         <div className="container-custom">
           <div className="text-center max-w-4xl mx-auto">
+            {/* Profile Photo */}
+            <div className="mb-4 animate-fade-in">
+              <div className="relative w-48 h-48 mx-auto mb-4">
+                <img
+                  src="/assets/ravi-pandit-profile.png"
+                  alt="Ravi Pandit"
+                  className="w-full h-full rounded-full object-cover shadow-lg ring-4 ring-gray-200 dark:ring-gray-700 transition-transform duration-300 hover:scale-105"
+                />
+                {/* <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-500/20 to-purple-500/20"></div> */}
+              </div>
+            </div>
+            {/* Text */}
             <h1 className="text-gray-900 dark:text-white mb-6 animate-slide-up">
               Computer Engineer & <br />
               Java Developer
